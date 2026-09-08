@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <h1>
+            Formulário
+        </h1>
+       <form>
+        <label for="nome-usuario">nome</label>
+        <input type="text" name="nome" id="nome-usuario" required minlength="3">
+
+        <label for="email-usuario">email</label>
+        <input type="email" name="email" id="email-usuario" required>
+
+        <label for="senha-usuario">senha</label>
+        <input type="password" name="senha" id="senha-usuario" required minlength="8">
+
+        <label for="data-usuario">Data de nascimento</label>
+        <input type="date" name="data-de-nascimento" id="data-usuario" required>
+
+        <label for="pais-usuario">País de origem</label>
+        <select name="pais" id="pais-usuario">
+            <option value="pt-BR">Brasil</option>
+            <option value="eua">Estados Unidos</option>
+            <option value="Arg">Argentina</option>
+        </select>
+
+        <button type="submit" name="envio" id="enviar-usuario">
+            Enviar
+        </button>
+       </form>
+    </main>
+</body>
+</html>
