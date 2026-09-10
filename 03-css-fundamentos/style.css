@@ -1,0 +1,26 @@
+* { 
+    box-sizing: border-box;
+}
+
+article {
+    padding: 50px;
+    border: 50px solid black;
+    margin: 50px;
+    background-color: aliceblue;
+}
+
+aside {
+    padding: 30px;
+    border: 30px solid black;
+    margin: 30px;
+    background-color: aqua;
+}
+
+p {
+    background-color: blue;
+}
+
+.destaque {
+    background-color: blueviolet;
+}
+
