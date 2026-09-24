@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    border: 1px solid;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
