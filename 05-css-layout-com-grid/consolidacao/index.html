@@ -7,13 +7,61 @@
     <title>Consolidação</title>
 </head>
 <body>
-    <header class="Cabecalho">
-        <h1>Site do Arthur</h1>
-        <nav class="navbar">
-            <a href="">Início</a>
-            <a href="">Sobre</a>
-            <a href="">Contato</a>
-        </nav>
-    </header>
+    <div class="container">
+        <header class="Cabecalho">
+            <h1>Site do Arthur</h1>
+            <nav class="navbar">
+                <a href="">Início</a>
+                <a href="">Produtos</a>
+                <a href="">Categorias</a>
+                <a href="">Sobre</a>
+                <a href="">Contato</a>
+            </nav>
+        </header>
+
+        <main class="Principal">
+            <section class="Produtos">
+                <h2>Principais produtos</h2>
+                <p>Arroz, feijão, batata, pedra, bata frita</p>
+            </section>
+
+            <section class="Planos">
+                <h2>Planos disponíveis</h2>
+                <p>Planos são bem baratos e bons
+                    para entender como funciona a vida humana,
+                    percebe-se que eu apenas estou tentando aumentar
+                    um texto mesmo.
+                </p>
+            </section>
+
+            <section>
+                <h2>Formulário de acesso ao plano</h2>
+                <form class="Forms">
+
+                    <label for="nome-usuario">Nome</label>
+                    <input type="text" name="nome" id="nome-usuario" required minlength="3" maxlength="30">
+                
+                    <label for="email-usuario">Email</label>
+                    <input type="email" name="email" id="email-usuario" required>
+
+                    <label for="nascimento-usuario">Data De Nascimento</label>
+                    <input type="date" name="nascimento" id="nascimento-usuario">
+
+                    <label for="tel-usuario">Telefone</label>
+                    <input type="tel" name="telefone" id="tel-usuario" required pattern="[0-9]{5}-[0-9]{4}" title="Formnato: 00000-0000">
+
+                    <label for="cpf-usuario">CPF</label>
+                    <input type="text" name="cpf" id="cpf-usuario" required pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" title="Formato: 000.000.000-02">
+
+                    <button class="enviar" type="submit">Enviar solicitação</button>
+
+                </form>
+            </section>
+        </main>
+
+        <footer class="Final">
+            <p>&copy; 2026 Copyright nisso aqui. Todos os direitos reservados.</p>
+        </footer>
+    </div>
 </body>
 </html>
